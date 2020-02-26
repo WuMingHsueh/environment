@@ -1,0 +1,5 @@
+# postgresql env
+export PGDATA=/var/db/postgres/data12
+export PGDATABASE=postgres
+export PGUSER=postgres
+export PGPORT=5432

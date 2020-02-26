@@ -1,0 +1,5 @@
+# postgresql env
+set PGDATA = /var/db/postgres/data12
+set PGDATABASE = postgres
+set PGUSER = postgres
+set PGPORT = 5432
