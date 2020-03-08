@@ -102,7 +102,7 @@ let mapleader=";"
 " let g:NERDTreeWinPos = "right"
 let g:NERDTreeWinSize=50
 let g:NERDTreeChDirMode=2
-let g:NERDTreeIgnore=['\.rbc$', '.git$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__']
+let g:NERDTreeIgnore=['\.rbc$', '.git$', '.swp$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__']
 let g:NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$', '\.bak$', '\~$']
 let g:NERDTreeShowBookmarks=1
 let g:nerdtree_tabs_focus_on_files=1
@@ -110,7 +110,7 @@ let g:NERDtreeMapOpenInTabSilent = '<RightMouse>'
 let NERDTreeShowHidden=1
 map <F4> :NERDTreeToggle<CR>
 map <F3> t :NERDTreeMirror<CR>
-map <F2> :NERDTreeFind<CR>
+
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
